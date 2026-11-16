@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "MvcTasks": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "Page/Welcome",
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

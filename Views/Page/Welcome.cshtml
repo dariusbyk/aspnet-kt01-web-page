@@ -1,0 +1,14 @@
+@{
+    string currentDate = DateTime.Now.ToString("dd.MM.yyyy");
+}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Приветствие</title>
+</head>
+<body>
+    <h1>@ViewBag.Message</h1>
+    <p>Текущая дата: @currentDate</p>
+</body>
+</html>

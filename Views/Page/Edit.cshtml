@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>Редактирование сообщения</title>
+</head>
+<body>
+    <h1>Введите сообщение</h1>
+
+    <form action="/Page/Edit" method="post">
+        <label for="message">Сообщение:</label>
+        <input type="text" id="message" name="message" />
+        <button type="submit">Отправить</button>
+    </form>
+
+    @if (ViewBag.Message != null)
+    {
+        <h2>Отправленное сообщение:</h2>
+        <p>@ViewBag.Message</p>
+    }
+</body>
+</html>
